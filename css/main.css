@@ -188,7 +188,7 @@ ul.topnav li.icon {
 	font-style: normal;
 	font-weight: 400;
 	font-display: fallback;
-	src: url(/assets/Josefin_Sans/JosefinSans-Regular.ttf);
+	src: url(assets/Josefin_Sans/JosefinSans-Regular.ttf);
 }
 
 /* latin */
@@ -197,5 +197,5 @@ ul.topnav li.icon {
 	font-style: normal;
 	font-weight: 600;
 	font-display: fallback;
-	src: url(/assets/Josefin_Sans/JosefinSans-SemiBold.ttf);
+	src: url(assets/Josefin_Sans/JosefinSans-SemiBold.ttf);
 }
