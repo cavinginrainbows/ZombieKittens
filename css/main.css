@@ -41,11 +41,31 @@ a:hover {
 /* Wrapper of Body*/
 .content {
 	overflow: auto;
-	max-width: 1400px;
 }
 
 main {
 	width: 98%;
+	margin: 1% auto;
+	/* display: inline-block; */
+}
+
+section {
+	clear: both;
+}
+
+footer {
+	text-align: center;
+	position: relative;
+	padding: 1rem;
+}
+
+figure {
+	text-align: center;
+}
+
+img {
+	display: block;
+	width: 50%;
 	margin: 1% auto;
 }
 
@@ -88,7 +108,7 @@ ul.topnav li.icon {
 }
 /*----- END NAVIGATION LINKS -----*/
 
-/* ----- GRID LAYOUT FOR PROJECTS SECTION ----- */
+/* ----- GRID LAYOUT ----- */
 .grid-container {
 	display: grid;
 	/* grid-template-columns: 32% 32% 32%;  */
@@ -96,11 +116,6 @@ ul.topnav li.icon {
 	/* grid-column-gap: 10px; */
 	/* grid-row-gap: 20px; */
 	grid-gap: 10px; /*for row and column*/
-}
-
-.projectSection {
-	grid-template-columns: 50% 50%;
-	margin: 2% auto 0 2%;
 }
 
 .grid-item {
@@ -115,10 +130,6 @@ ul.topnav li.icon {
 	width: 100%;
 	max-width: 400px;
 	height: 300px;
-}
-
-.skill {
-	color:#081b56bd;
 }
 
 .navButton {
@@ -141,13 +152,6 @@ ul.topnav li.icon {
 	color: black;
 }
 /* --------- END ---------- */
-
-/* --------- FOOTER ---------*/
-footer {
-	text-align: center;
-	margin-bottom: 10px;
-}
-/*----- END OF FOOTER -----*/
 
 /* START RESPONSIVE STYLES */
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
