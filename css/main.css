@@ -2,6 +2,8 @@
  * Dai Nguyen
  * main.css
  */
+
+ /* GLOBAL CONFIGURATION */
  html {
 	box-sizing: border-box;
 	font-family: 'Josefin Sans', sans-serif;
@@ -29,6 +31,10 @@ h6 {
 	font-weight: 600;
 }
 
+h1 {
+	font-size: 2.5rem;
+}
+
 a {
 	text-decoration: none;
 	color: #0F0FFF;
@@ -37,6 +43,7 @@ a {
 a:hover {
 	color: cornflowerblue;
 }
+/* GLOBAL CONFIGURATION ENDS*/
 
 /* Wrapper of Body*/
 .content {
@@ -47,6 +54,7 @@ main {
 	width: 98%;
 	margin: 1% auto;
 	/* display: inline-block; */
+	font-size: 1.10rem;
 }
 
 section {
@@ -68,6 +76,29 @@ img {
 	width: 50%;
 	margin: 1% auto;
 }
+
+/* Youtube Video Reponsive */
+.video {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+/* Youtube Video Reponsive Ends */
 
 /* NAVIGATION LINKS */
 /* Remove margins and padding from the list, and add a black background color */
