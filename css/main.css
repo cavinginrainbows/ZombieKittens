@@ -15,8 +15,10 @@
 }
 
 body {
-	margin: 0;
+	margin: 0 auto;
+	width: 90%;
 	height: 100%;
+	max-width: 1400px;
 	background-color: #F5F5F5;
 }
 
@@ -75,6 +77,15 @@ img {
 	display: block;
 	width: 50%;
 	margin: 1% auto;
+}
+
+/* Cyriak Float Left */
+#Cyriak {
+	float: left;
+}
+
+.Cyriak {
+	width: 60%;
 }
 
 /* Youtube Video Reponsive */
